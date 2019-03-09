@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Basic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <!--Heading-->
+    <header>
+
+        <div class="content1">
+
+            <h1>Justin Chastain</h1>
+
+            <!--Links to other Pages-->
+
+            <div class="links">
+
+                <a id="about" href="index.html">About</a>
+                <a id="portfolio" href="portfolio.html">Portfolio</a>
+                <a id="contact" href="contact.html">Contact</a>
+
+            </div>
+
+        </div>
+
+    </header>
+    <div class="background">
+        <section class="content2">
+
+            <h2>Contact</h2>
+
+            <form action="process.php" method="POST">
+                <div>
+
+                    <label>Name</label>
+                    <input type="text" name="Name" placeholder="Enter full name">
+
+                </div>
+
+                <br>
+
+                <div>
+
+                    <label>Email</label>
+                    <input type="email" name="email">
+
+                </div>
+
+                <br>
+
+                <div>
+
+                    <label>Message</label>
+                    <textarea name="message"></textarea>
+
+                </div>
+                <br>
+
+                <input class="button" type="submit" name="submit" value="Submit">
+            </form>
+
+        </section>
+    </div>
+    <footer>Copyright</footer>
+</body>
+
+</html>
